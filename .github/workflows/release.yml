@@ -1,9 +1,10 @@
 # release action with semantic release
 name: Release
 
-on:
-  workflow_dispatch:
-
+# Triggers intentionally disabled for Argus-OSS-Security.
+# on:
+#   workflow_dispatch:
+# 
 permissions:
   contents: read
 
